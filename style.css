@@ -1,0 +1,47 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 0.5rem;
+}
+.wrap-container{
+    background: #ffffdd;
+    width:auto;
+    border-radius:.4rem;
+    padding: 1rem;
+}
+input{
+    width:auto;
+    padding: 1.6em 1.5rem;
+    border: none;
+    background-color: #FFF0D2;
+    margin:0 auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8)
+}
+button{
+    margin:0.2rem;
+    padding:0.5rem 0.8rem;
+    background-color: #FFE3AA;
+    border-radius:.3rem;
+    width: 20%;
+    text-align: center;
+    font-weight:700;
+    transition: background-color .4s ease-in-out;
+}
+button:focus{
+    background-color: #fff;
+}
+.opd{
+    background-color:#F1AF60;
+}
+.operators{  
+    padding: 0.4rem;
+}
